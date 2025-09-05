@@ -3,14 +3,14 @@ A Python-based physics data analysis project that determines the Rydberg constan
 
 ## Repository Contents
 
-- `data/spectral_measurements.csv`: The raw data used in the analysis.
-- `notebooks/rydberg_analysis_clean.ipynb`: The final, polished analysis.
-- `notebooks/rydberg_analysis_with_notes.ipynb`: The full analysis including my learning notes and explanations of the methods.
-- `results/rydberg_plot.png`: The final plot showing the linearized data and fit.
+- `Data`: This folder contains all the raw data used in the analysis.
+- `Codes`: This folder contains all the Python codes used for analysis.
+- `Results Plots`: This folder contains all the final plots from the data analysis.
+- `Valen_Lebepe_Report.pdf`: This is the final report write up for this project, which explains the goal, the methodology and the theory behind all this.
 - `README.md`: This file.
 
 ## View the Analysis
 
-For a clear view of the final results and methodology, see the clean notebook: **[rydberg_analysis_clean.ipynb](notebooks/rydberg_analysis_clean.ipynb)**
+For a clear view of the final results, background theory and methodology, see the report: **Report link**
 
-For insight into my learning process and explanations of key concepts (like weighted vs. unweighted fitting, uncertainty propagation, and `curve_fit` usage), see the full notebook with notes: **[rydberg_analysis_with_notes.ipynb](notebooks/rydberg_analysis_with_notes.ipynb)**
+For insight into my analysis learning process and explanations of key concepts (like weighted vs. unweighted fitting, uncertainty propagation, and `curve_fit` usage), see the full notebook with notes: **[rydberg_analysis_with_notes.ipynb](Determination-of-the-Rydberg-Constant-from-Spectral-Data/Codes/rydberg_analysis_with_notes.ipynb)**
