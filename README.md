@@ -13,4 +13,4 @@ A Python-based physics data analysis project that determines the Rydberg constan
 
 For a clear view of the final results, background theory and methodology, see the report: **Report link**
 
-For insight into my analysis learning process and explanations of key concepts (like weighted vs. unweighted fitting, uncertainty propagation, and `curve_fit` usage), see the full notebook with notes: **[rydberg_analysis_with_notes.ipynb](Determination-of-the-Rydberg-Constant-from-Spectral-Data/Codes/rydberg_analysis_with_notes.ipynb)**
+For insight into my analysis learning process and explanations of key concepts (like weighted vs. unweighted fitting, uncertainty propagation, and `curve_fit` usage), see the full notebook with notes: **[rydberg_analysis_with_notes.ipynb](Codes/rydberg_analysis_with_notes.ipynb)**
