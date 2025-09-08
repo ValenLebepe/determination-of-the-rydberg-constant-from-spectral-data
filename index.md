@@ -1,3 +1,6 @@
+
+title: Determination of the Rydberg Constant
+theme: jekyll-theme-minimal
 # Determination of the Rydberg Constant from Spectral Data
 
 A Python-based physics data analysis project that determines the Rydberg constant by analyzing the hydrogen Balmer series. The project demonstrates advanced fitting techniques like **weighted linear regression** on linearized spectral data, full **error propagation**, and professional **visualization** with Matplotlib and Plotly.
