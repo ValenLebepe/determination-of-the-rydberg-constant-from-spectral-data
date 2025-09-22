@@ -2,6 +2,8 @@
 
 A Python-based physics data analysis project that determines the Rydberg constant by analyzing the hydrogen Balmer series. The project demonstrates advanced fitting techniques like **weighted linear regression** on linearized spectral data, full **error propagation**, and professional **visualization** with Matplotlib and Plotly.
 
+ **Key Libraries:** `NumPy`, `SciPy` (for `curve_fit` and optimization), `Matplotlib`, `Plotly`, `pandas`
+
 ## 🎯 Project Overview
 
 The goal of this project was to experimentally determine the fundamental Rydberg constant ($R_H$) by:
