@@ -41,7 +41,7 @@ The analysis is structured in a clear pipeline within the `Codes` directory:
 ## 📄 Project Report
 
 A detailed technical report documenting the full methodology, theoretical background, and discussion is available here:  
-[**Rydberg Constant Analysis Report**](Reports/rydberg-constant-analysis-report.pdf)
+[**Rydberg Constant Analysis Report**](https://github.com/ValenLebepe/determination-of-the-rydberg-constant-from-spectral-data/blob/main/Reports/rydberg-constant-determination-report.pdf)
 
 **Report Highlights:**
 - Comprehensive theoretical background on atomic spectroscopy
@@ -104,14 +104,14 @@ This project showcases **directly transferable data analysis skills**:
 - Used hypothesis testing to validate results against theoretical values
 
 ### 🔧 Programming & Technical Skills
-- **Python Data Stack:** pandas for data manipulation, NumPy for numerical computations, SciPy for statistical modeling and machine learning
-- **Data Visualization:** Created professional plots with Matplotlib and interactive charts with Plotly
+- **Python Data Stack:** pandas for data manipulation, `NumPy` for numerical computations, `SciPy` for statistical modeling and machine learning
+- **Data Visualization:** Created professional plots with `Matplotlib` and interactive charts with `Plotly`
 - **Jupyter Notebooks:** Developed reproducible analysis workflows with clear documentation
 
 ## 👨‍💻 View the Analysis Code
 
 For insight into the analysis process—including explanations of weighted vs. unweighted fitting, uncertainty propagation, and `scipy.curve_fit` usage, see the notebook with notes:
-**[Codes/analysis_with_notes.ipynb](Codes/rydberg_analysis_with_notes.ipynb)**
+**[analysis_with_notes.ipynb](Codes/rydberg_analysis_with_notes.ipynb)**
 
 ## 📄 License
 
