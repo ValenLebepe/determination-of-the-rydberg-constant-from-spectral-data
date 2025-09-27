@@ -21,6 +21,7 @@ The experimental value for the Rydberg constant was determined to be:
 This result was derived from the slope of the best-fit line in the linearized Rydberg relation, achieving a high level of precision.
 
 ![Linearized Rydberg Plot](https://github.com/ValenLebepe/Determination-of-the-Rydberg-Constant-from-Spectral-Data/blob/main/Results%20Plots/Rydberg%20Formula%20Plot.png)
+
 *Figure 1: The linearized Rydberg plot. The slope of the weighted best-fit line yields the experimental value of* $R_H$.
 
 ## ⚙️ How It Works: Analysis Pipeline
@@ -31,6 +32,7 @@ The analysis is structured in a clear pipeline within the `Codes` directory:
 2.  **Spectral Peak Fitting:** Gaussian functions were fitted to each Balmer line to accurately find their centers, accounting for instrumental broadening.
                            
 ![H-Alpha Gaussian Fit](https://github.com/ValenLebepe/Determination-of-the-Rydberg-Constant-from-Spectral-Data/blob/main/Results%20Plots/Ha%20spectrum%20Plot.png)
+
 *Figure 2: Measured spectrum of the H-α line with Gaussian fit.*
 
 3.  **Linear Regression:** The Rydberg formula was linearized into the form $y = R_H \cdot x$, and a **weighted regression** was performed, where each point was weighted.
