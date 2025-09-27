@@ -38,6 +38,17 @@ The analysis is structured in a clear pipeline within the `Codes` directory:
 3.  **Linear Regression:** The Rydberg formula was linearized into the form $y = R_H \cdot x$, and a **weighted regression** was performed, where each point was weighted.
 4.  **Uncertainty Propagation:** Uncertainties from wavelength measurements were propagated through the Gaussian fitting and linear regression processes to determine the final uncertainty in $R_H$.
 
+## 📄 Project Report
+
+A detailed technical report documenting the full methodology, theoretical background, and discussion is available here:  
+[**Rydberg Constant Analysis Report**](Reports/rydberg-constant-analysis-report.pdf)
+
+**Report Highlights:**
+- Comprehensive theoretical background on atomic spectroscopy
+- Detailed experimental methodology and apparatus description
+- Complete error analysis and uncertainty discussion
+- Comparison with accepted literature values
+
 ## 📁 Repository Structure
 
 A high-level overview of the project organization:
@@ -52,10 +63,10 @@ Determination-of-the-Rydberg-Constant-from-Spectral-Data/
 │
 ├── Codes/
 │   └── The core analysis scripts and notebooks.
-│       - `rydberg_analysis.py`: The main Python script containing the complete analysis pipeline.
-│       - `analysis_clean.ipynb`: A clean Jupyter notebook version of the main script.
-│       - `analysis_with_notes.ipynb`: A notebook with the same code but detailed explanations of the physics and code.
-│       - *The complete workflow includes: calibration, Gaussian fitting, uncertainty propagation, linear regression, and visualization.*
+│       - rydberg_analysis.py: The main Python script containing the complete analysis pipeline.
+│       - analysis_clean.ipynb: A clean Jupyter notebook version of the main script.
+│       - analysis_with_notes.ipynb: A notebook with the same code but detailed explanations of the physics and code.
+│       - The complete workflow includes: calibration, Gaussian fitting, uncertainty propagation, linear regression, and visualization.
 │
 ├── Results_Plots/
 │   └── Final publication-quality figures (.png) output by the scripts.
@@ -63,6 +74,10 @@ Determination-of-the-Rydberg-Constant-from-Spectral-Data/
 │       - Plot of the linearized relationship and best-fit line
 │       - Overview of the full hydrogen spectrum
 │
+├── Reports/
+│   └── Project documentation and technical report
+│       - rydberg-constant-analysis-report.pdf
+|
 └── README.md
 ```
 
@@ -73,11 +88,40 @@ Determination-of-the-Rydberg-Constant-from-Spectral-Data/
 - **Key Libraries:** `NumPy`, `SciPy` (for `curve_fit` and optimization), `Matplotlib`, `Plotly`, `pandas`
 - **Core Techniques:** Gaussian curve fitting, weighted least-squares regression, systematic error calibration, uncertainty propagation.
 
-## 🔬 Note on Academic Integrity
+## 👨‍💻 Skills Demonstrated
 
-This repository contains the **code and data** for the project. The formal lab report, which contains the detailed theoretical background and full discussion, is not published here to uphold my academic institution's integrity policies. The code and results presented here demonstrate the technical implementation and data analysis skills developed in this project.
+This project showcases **directly transferable data analysis skills**:
+
+### 📊 Data Cleaning & Preprocessing
+- Handled raw spectrometer data with noise and calibration issues
+- Performed data validation and outlier detection  
+- Created automated data processing pipelines for reproducible analysis
+
+### 📈 Statistical Analysis & Modeling
+- Applied weighted linear regression for precise parameter estimation
+- Implemented Gaussian curve fitting for spectral peak identification
+- Conducted comprehensive error propagation and uncertainty quantification
+- Used hypothesis testing to validate results against theoretical values
+
+### 🔧 Programming & Technical Skills
+- **Python Data Stack:** pandas for data manipulation, NumPy for numerical computations, SciPy for statistical modeling and machine learning
+- **Data Visualization:** Created professional plots with Matplotlib and interactive charts with Plotly
+- **Jupyter Notebooks:** Developed reproducible analysis workflows with clear documentation
 
 ## 👨‍💻 View the Analysis Code
 
 For insight into the analysis process—including explanations of weighted vs. unweighted fitting, uncertainty propagation, and `scipy.curve_fit` usage, see the notebook with notes:
 **[Codes/analysis_with_notes.ipynb](Codes/rydberg_analysis_with_notes.ipynb)**
+
+## 📄 License
+
+**Report:** Copyright © 2025 [Valen Lebepe]. All rights reserved.
+This report is provided for viewing purposes only. Redistribution, copying, 
+or commercial use is prohibited without explicit permission.
+
+## 👤 Author
+
+**Valen Lebepe**  
+- GitHub: [@ValenLebepe](https://github.com/ValenLebepe)
+- LinkedIn: [Valen Lebepe](https://www.linkedin.com/in/valenlebepe)  
+- Email: valenlebepe@gmail.com
