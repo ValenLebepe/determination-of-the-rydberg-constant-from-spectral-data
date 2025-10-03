@@ -12,7 +12,7 @@ The goal of this project was to experimentally determine the fundamental Rydberg
 3.  **Linearizing the Rydberg formula** and performing a weighted linear least-squares regression to extract $R_H$ from the slope.
 4.  Propagating all measurement uncertainties to obtain a final uncertainty for the calculated constant.
 
-## 📊 Key Result
+## 📊 Key Results
 
 The experimental value for the Rydberg constant was determined to be:
 
